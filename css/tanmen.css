@@ -1,0 +1,44 @@
+.static-inner {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.static-contents {
+}
+
+.static-wait-group {
+
+}
+
+.static-wait-button {
+  display: table;
+}
+
+.static-wait-button > a {
+  display: table-cell;
+  height: 150px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+}
+
+.static-wait-count {
+  position: relative;
+  height: 140px;
+  text-align: center;
+}
+
+.static-wait-count-title {
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.static-wait-count-contents {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 40px;
+  font-size: 25px;
+}
