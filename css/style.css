@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* ------------------------------
+  common
+------------------------------ */
+.cf:after {
+    content: '';
+    display: #F1F7FF;
+    clear: both;
+}
+.inner {
+  width: 900px;
+  margin: 0 auto;
+}
+/* ------------------------------
+  body
+------------------------------ */
+
+/* ------------------------------
+  header
+------------------------------ */
+.header {
+  padding: 10px 0 10px 15px;
+  background-color: #4A4A4A;
+}
+
+.header-navi {
+  position: left;
+}
+
+.header-title {
+  /*text-indent: block;*/
+  text-decoration: none;
+}
+
+.display: {
+  inline-block;
+  float: right;
+
+}
+
+/* ------------------------------
+  main
+------------------------------ */
+.part-form {
+  text-align: center;
+  padding-top:100px;
+  padding-bottom:20px;
+}
+
+.button-group {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.wait-button-group {
+  background-color: #909090;
+}
+
+.wait-button {
+  float: left;
+  margin-right: 20px;
+  margin-bottom:20px;
+  border-radius: 10px;
+  width: 80%;
+  height: 200px;
+  background-color: #4A90E2;
+  text-align: center;
+/*   vertical-align: middlel; */
+}
+
+.wait-button > a {
+  color: #fff;
+  font-size:30px;
+  text-decoration:none;
+
+}
+
+.wait-count-group-title {
+  float:left;
+  height:50px;
+
+}
+
+.wait-count {
+  margin-bottom:20px;
+  height:150px;
+}
+
+.wait-count-group {
+  margin-bottom:20px;
+  float:left;
+  width:16%;
+  height:200px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.finish-button {
+  float:left;
+  border: 1px solid #4A4A4A;
+  padding: 20px 0;
+  border-radius: 10px;
+  height:100px;
+  width:100%;
+  background-color: #4A4A4A;
+  text-align: center;
+}
+
+.finish-button > a{
+  color: #fff;
+  font-size:30px;
+  text-decoration:none;
+}
