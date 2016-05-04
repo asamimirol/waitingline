@@ -15,7 +15,9 @@
 /* ------------------------------
   body
 ------------------------------ */
-
+body {
+  padding-bottom: 70px;
+}
 /* ------------------------------
   header
 ------------------------------ */
@@ -29,12 +31,10 @@
 }
 
 .header-title {
-  /*text-indent: block;*/
   text-decoration: none;
 }
 
 .display: {
-  inline-block;
   float: right;
 
 }
@@ -62,6 +62,7 @@
   margin-right: 20px;
   margin-bottom:20px;
   border-radius: 10px;
+  display:table;
   width: 80%;
   height: 200px;
   background-color: #4A90E2;
@@ -70,21 +71,25 @@
 }
 
 .wait-button > a {
+  display:table-cell;
   color: #fff;
   font-size:30px;
   text-decoration:none;
-
+  vertical-align:middle;
 }
 
 .wait-count-group-title {
-  float:left;
-  height:50px;
-
+  text-align: center; 
+  padding-top:20px;
+  height:90px;
 }
 
 .wait-count {
+  text-align: center; 
   margin-bottom:20px;
   height:150px;
+  font-size:32px;
+
 }
 
 .wait-count-group {
@@ -97,18 +102,21 @@
 }
 
 .finish-button {
-  float:left;
-  border: 1px solid #4A4A4A;
-  padding: 20px 0;
-  border-radius: 10px;
+  margin-top: 20px;
   height:100px;
   width:100%;
+  border: 1px solid #4A4A4A;
+  border-radius: 10px;
+  display:table;
   background-color: #4A4A4A;
   text-align: center;
 }
 
 .finish-button > a{
+  display:table-cell;
+  height:100px;
   color: #fff;
   font-size:30px;
   text-decoration:none;
+  vertical-align:middle;
 }
