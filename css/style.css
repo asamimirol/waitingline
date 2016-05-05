@@ -29,10 +29,6 @@ body {
   position: left;
 }
 
-.header-title {
-  text-decoration: none;
-}
-
 .display: {
   float: right;
 
@@ -43,7 +39,7 @@ body {
 ------------------------------ */
 .part-form {
   text-align: center;
-  padding-top:109px;
+  padding-top:150px;
   padding-bottom:20px;
   font-size:15px;
 }
