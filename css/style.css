@@ -4,9 +4,9 @@
   common
 ------------------------------ */
 .cf:after {
-    content: '';
-    display: #F1F7FF;
-    clear: both;
+  content: '';
+  display: #F1F7FF;
+  clear: both;
 }
 .inner {
   width: 900px;
@@ -62,7 +62,6 @@
   height: 200px;
   background-color: #4A90E2;
   text-align: center;
-/*   vertical-align: middlel; */
 }
 
 .wait-button > a {
@@ -149,11 +148,10 @@
 
 
 .footer {
-/*   position: absolute; */
-    bottom: 0;
-    width: 100%;
-    height: 30px;
-    background-color: #333;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #333;
 }
 
 .text-muted {
@@ -162,4 +160,28 @@
   text-align: center;
   vertical-align: middle;
   font-size:15px;
+}
+
+/* ------------------------------
+  
+  yourranking.html
+
+------------------------------ */
+
+.table {
+  display:table;
+  width: 70%;
+  max-width: 70%;
+  margin-top:150px;
+  margin-bottom: 20px;
+}
+
+.sub-header {
+  margin-bottom: 20px;
+  margin-top:150px;
+  padding-bottom:10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  vertical-align: middle;
+  font-size:30px;
 }
