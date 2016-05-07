@@ -12,7 +12,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/tanmen.css" />
+	<link rel="stylesheet" href="css/tanmen.css">
 </head>
 <body>
 <header class="header inherit-color">
@@ -50,6 +50,9 @@
     </nav>
 </header>
 <main>
+  <div class="your-ranking">
+    <img src="img/yourranking.png" width="150" height="150" els="yourranking">
+  </div>
 	<section class="part-form">
 		<label class="part-settings-title">
 			<p style="display: inline-block;">演習問題</p>
@@ -64,29 +67,6 @@
 			</select>
 		</label>
 	</section>
-	<div class="button-group">
-		<div class="wait-button-group cf">
-			<div class="wait-button">
-				<a href="#">順番を待つ</a>
-			</div>
-			<div class="wait-count-group">
-				<div class="wait-count-group-title">
-					順番待ち
-				</div>
-				<div class="wait-count">
-					4
-				</div>
-			</div>
-		</div>
-		<div class="finish-button">
-			<a href="#">終了した！</a>
-		</div>
-	</div>
-
-	<div class="your-ranking">
-			<img src="img/yourranking.png" width="150" height="150" els="yourranking">
-	</div>
-
 <!-- bootstrap形式のボタンとテーブル組みをしてみましたので参考までにどうぞ -->
 	<div class="static-inner">
 		<div class="static-contents">
@@ -103,6 +83,9 @@
 							24
 						</p>
 					</div>
+				</div>
+              	<div class="col-xs-10 static-finish-button">
+					<a class="label label-default finish-button" href="#" role="finish-button">終了した！</a>
 				</div>
 			</div>
 		</div>
