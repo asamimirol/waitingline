@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* ------------------------------
+
+  body
+
+------------------------------ */
+body {
+    padding-top: 40px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 180px auto;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.your-post {
+	text-align: center;
+	width:100%;
+}
